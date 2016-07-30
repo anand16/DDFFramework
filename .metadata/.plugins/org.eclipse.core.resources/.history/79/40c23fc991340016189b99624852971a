@@ -1,0 +1,12 @@
+package Tests;
+
+import java.io.FileInputStream;
+
+public class TestCaseone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+FileInputStream fin=new FileInputStream()
+	}
+
+}

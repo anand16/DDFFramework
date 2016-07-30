@@ -1,0 +1,5 @@
+username1d=Email
+firstbuttonid=next
+passwordid=Passwd
+signinbuttonid=signIn
+xpathbutton=//*[@id='gb']/div[1]/div[1]/div[2]/div[4]/div[1]/a/span

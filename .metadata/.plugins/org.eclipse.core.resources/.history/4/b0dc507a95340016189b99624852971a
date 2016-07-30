@@ -1,0 +1,25 @@
+package Tests;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import Constants.ConstantValues;
+
+public class TestCaseone {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+FileInputStream fin=new FileInputStream(ConstantValues.Propfile);
+Properties pr=new Properties();
+pr.load(fin);
+
+String UserName=pr.getProperty("usernameid");
+String Usernamebutton=pr.getProperty("firstbuttonid");
+String Password=pr.getProperty("passwordid");
+String SigninButton=pr.getProperty("signinbuttonid");
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package Constants;
+
+public class ConstantValues {
+
+	public static final String URL="http://gmail.com";
+	public static final String XLFile="C:\\Users\\anand\\Desktop\\DDFDocuments\\Registration.xlsx";
+	public static final String Propfile="";
+	
+}
